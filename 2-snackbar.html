@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-01/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/rolldown-runtime-Bh1tDfsg.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-Dezn_h7o.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-DKR176cq.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-BDX6aR9O.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-X3LDb18f.css">
+  </head>
+  <body>
+    <main>
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input type="number" name="delay" required />
+        </label>
+
+        <fieldset>
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
+    </main>
+  </body>
+</html>
